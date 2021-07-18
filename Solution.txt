@@ -1,0 +1,48 @@
+ - ls
+ - cd Documents
+ - ls
+ - mkdir GitAssignment
+ - cd GitAssignment
+ - git init
+ - notepad fileOne.txt
+ - notepad fileTwo.txt
+ - notepad fileThree.txt
+ - ls
+ - history
+ - git checkout -b Dev
+ - git add fileOne.txt
+ - git commit -m "Commiting fileOne.txt into Dev branch"
+ - git branch master
+ - git switch master
+ - git branch
+ - git branch Test
+ - git branch
+ - git switch Test
+ - git add fileTwo.txt
+ - git add fileThree.txt
+ - git commit -m "Commiting fileTwo.txt and fileThree.txt into Test branch"
+ - git switch master
+ - notepad fileOne.txt
+ - git status
+ - git
+ - git diff
+ - git status
+ - git merge Dev
+ - git merge Test
+ - ls
+ - git status
+ - git branch
+ - git add fileOne.txt
+ - git commit -m "Commiting modified fileOne.txt after merging all the branches"
+ - git remote add origin https://github.com/kjammes/GitAssignment.git
+ - git push origin master
+ - cd  ..
+ - mkdir GitAssignmentSol
+ - cd GitAssignmentSol
+ - ls
+ - git clone https://github.com/kjammes/GitAssignment.git
+ - notepad Solution.txt
+ - history
+ - ls
+ - rm Solution.txt
+ - cd GitAssignment

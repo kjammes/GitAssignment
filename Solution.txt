@@ -46,3 +46,8 @@
  - ls
  - rm Solution.txt
  - cd GitAssignment
+ - notepad Solution.txt
+ - git status
+ - git add Solution.txt
+ - git commit -m "Solution.txt file added"
+ - git push origin master
